@@ -9,7 +9,7 @@ class Solution(object):
         water = 0
 
         while left<right:
-            print("hi")
+            
             if height[left]<height[right]:
                 if height[left] >= left_max:
                     left_max = height[left]
